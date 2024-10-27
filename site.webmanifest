@@ -1,0 +1,12 @@
+{
+  "short_name": "Movie Tickets",
+  "name": "Movie Tickets",
+  "icons": [{
+    "src": "ticket.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa",
+  "display": "standalone"
+}
