@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-app.js";
-import { getDatabase, ref, set, get, update, child } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js";
+import { getDatabase, ref, get, update, child } from "https://www.gstatic.com/firebasejs/11.0.1/firebase-database.js";
 import { Movie } from "/movie/movie.js";
 
 const firebaseConfig = {
