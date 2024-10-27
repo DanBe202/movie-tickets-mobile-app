@@ -16,12 +16,14 @@
 
 .movies {
     width: 90%;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
+    justify-items: center;
 }
 
 .movie {
+    width: 80%;
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -38,7 +40,7 @@
 
 .button {
     width: 100%;
-    height: 32px;
+    height: 46px;
     border-radius: 10px;
     background: #7DDC6E;
     font-family: "Poppins", sans-serif;
@@ -48,10 +50,32 @@
 
 .inputNumber {
     width: 30%;
-    height: 26px;
+    height: 40px;
     border-radius: 10px;
     background: #FDFDFD;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+@media screen and (max-width:450px) {
+    .movies {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .movie {
+        width: 90%;
+
+    }
+
+    .button {
+        height: 32px;
+    }
+
+    .inputNumber {
+        height: 26px;
+    }
 }
